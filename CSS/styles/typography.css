@@ -1,0 +1,21 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.one{
+    font-weight: bolder;
+}
+.two{
+    font-style: oblique;
+    text-indent: 50px;
+}
+.three{
+    font-style: italic;
+    text-align: center;
+}
+.four{
+    line-height: 2rem;
+    word-spacing: 20px;
+}

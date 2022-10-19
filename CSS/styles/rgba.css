@@ -1,0 +1,27 @@
+/* RGBA
+RED
+GREEN
+BLUE 
+ALPHA */
+#one {
+    color: rgb(255, 0, 0);
+    background: rgba(0,0,0,0);
+}
+
+#two {
+    color: rgb(0, 255, 0);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#three {
+    color: rgb(0, 0, 255);
+    background: rgba(0,0,0,0.8);
+}
+#four{
+    color: rgb(255,255,255);
+    background: rgba(0,0,0,1);
+}
+
+body {
+    background: rgba(10, 10, 200, 0.33);
+}

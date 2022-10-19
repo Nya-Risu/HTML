@@ -1,0 +1,42 @@
+/* basic selectors */
+/* *{
+    color: red;
+} */
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+.heading{
+    font-size: 20px;
+    text-transform:capitalize;
+    color: green;
+}
+.p{
+    letter-spacing: 15px;
+}
+/* Descendant and Child Combinators */
+.header > h1{
+    color: aqua;
+}
+div h1{
+    color: red;
+}
+div > h1{
+    color: greenyellow;
+}
+/* ::first-line and ::first-letter */
+p::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 3rem;
+}
+/* :hover */
+.head:hover{
+    background: blue;
+    color: wheat;
+}
+a:hover{
+    text-decoration: none;
+}

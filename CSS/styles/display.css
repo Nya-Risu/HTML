@@ -1,0 +1,27 @@
+/* body{
+    text-align: center;
+} */
+.block{
+    background: blue;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.inline{
+    background: red;
+    color: white;
+}
+.list_item{
+    background: green;
+}
+.inline_test{
+    background: brown;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+.wrapper_for_inline_test{
+    background: blueviolet;
+}

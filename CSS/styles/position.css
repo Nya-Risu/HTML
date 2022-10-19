@@ -1,0 +1,38 @@
+/* static */
+div{
+    border: 3px solid burlywood;
+    background: cadetblue;
+    margin-top: 40px;
+}
+.one{
+    background:crimson;
+}
+/* relative */
+.two{
+background: crimson;
+position: relative;
+right: 20%;
+bottom: 10px;
+}
+/* absolute */
+.three{
+    background: crimson;
+    position: relative;
+}
+    
+.special {
+    background: lightcoral;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* fixed */
+button{
+    background: red;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

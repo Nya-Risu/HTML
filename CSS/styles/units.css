@@ -1,0 +1,51 @@
+/* em */
+.relative{
+    font-size: 2em;
+}
+.absolute{
+    font-size: 32px;
+}
+body{
+    font-size: 10px;
+}
+/* persent value and pixels */
+.one{
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+.two{
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+/* rem */
+.rel{
+    font-size: 2rem;
+}
+.abs {
+    font-size: 32px;
+}
+body {
+    font-size: 10px;
+}
+html{
+    font-size: 22px;
+}
+/* vw and vh */
+.banner{
+    width: 100vw;
+    height: 50vh;
+    background: blueviolet;
+}
+/* calc function */
+.navbar{
+    background: blue;
+    height: 50px;
+    color: beige;
+    font-size: 2rem;
+}
+.ban{
+    background: rgb(130, 60, 14);
+    min-height: calc(50vh - 50px);
+}
