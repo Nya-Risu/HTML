@@ -1,3 +1,1 @@
-# HTML
-Coffe
-CSS
+# HTML, Coffe, CSS
